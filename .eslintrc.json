@@ -45,6 +45,41 @@
           "pattern": "{react*,react*/**}",
           "group": "external",
           "position": "before"
+        },
+        {
+          "pattern": "@hooks/*",
+          "group": "internal",
+          "position": "after"
+        },
+        {
+          "pattern": "@pages/*",
+          "group": "internal",
+          "position": "after"
+        },
+        {
+          "pattern": "@components/*",
+          "group": "internal",
+          "position": "after"
+        },
+        {
+          "pattern": "@utils/*",
+          "group": "internal",
+          "position": "after"
+        },
+        {
+          "pattern": "@styles/*",
+          "group": "internal",
+          "position": "after"
+        },
+        {
+          "pattern": "@types/*",
+          "group": "internal",
+          "position": "after"
+        },
+        {
+          "pattern": "@tanstack/*",
+          "group": "internal",
+          "position": "after"
         }
       ],
       "pathGroupsExcludedImportTypes": ["@tanstack*"],
@@ -93,7 +128,7 @@
     ],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/array-type": ["error", { "default": "array-simple" }],
-    //    "@typescript-eslint/no-unused-vars": ["error", { "ignoreRestSiblings": true }],
+    "@typescript-eslint/no-unused-vars": ["error", { "ignoreRestSiblings": true }],
     "@typescript-eslint/member-ordering": [
       "error",
       {
@@ -123,8 +158,6 @@
     "import/no-duplicates": "error",
 
     "react/prop-types": "off",
-    //    "react-hooks/rules-of-hooks": "error",
-    //    "react-hooks/exhaustive-deps": "error",
     "react/jsx-no-target-blank": "error",
     "@typescript-eslint/no-var-requires": "warn",
     "import/no-unresolved": "off",
@@ -135,7 +168,7 @@
     "no-nested-ternary": 0,
     "react/display-name": "off",
     "no-console": "error",
-    "no-unused-vars": "off", // or "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars": "off",
     "unused-imports/no-unused-imports": "error",
     "import/no-named-as-default": "off",
     "import/no-named-as-default-member": "off",
@@ -144,6 +177,6 @@
       { "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
     ],
     "un-useless-escape": "off",
-    "quotes": [2, "single", { "allowTemplateLiterals": true }]
+    "quotes": ["error","single", { "allowTemplateLiterals": true }]
   }
 }

@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52276f08-8c28-41f9-b11e-896383184e34" name="Changes" comment="" />
+    <list default="true" id="52276f08-8c28-41f9-b11e-896383184e34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stack/SignupStack.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/declare.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-ExtraBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Pretendard-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/IntroScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/main/HomeScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screens/signup/NicknameScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/color.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/HomeStack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/HomeStack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/ProfileStack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/ProfileStack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/metro.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/BottomTab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/BottomTab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/MainNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/DetailScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/main/DetailScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/HomeScreen.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screens/ProfileScreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/screens/main/ProfileScreen.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,37 +74,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/junhyeok/react/jmt-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/junhyeok/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/232.8660.143/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "/Users/junhyeok/react/jmt-app/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "/Users/junhyeok/react/jmt-app/node_modules/eslint",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/junhyeok/react/jmt-app/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/junhyeok/react/jmt-app/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/screens/main" />
       <recent name="$PROJECT_DIR$/.." />
       <recent name="$PROJECT_DIR$/Navigation" />
       <recent name="$PROJECT_DIR$/navigators" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="52276f08-8c28-41f9-b11e-896383184e34" name="Changes" comment="" />
@@ -87,6 +129,9 @@
       <workItem from="1696501542787" duration="58000" />
       <workItem from="1696501602982" duration="86000" />
       <workItem from="1696501692222" duration="5000" />
+      <workItem from="1696506678900" duration="1786000" />
+      <workItem from="1696508473581" duration="642000" />
+      <workItem from="1696509128056" duration="2677000" />
     </task>
     <servers />
   </component>

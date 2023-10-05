@@ -1,24 +1,28 @@
 import React from 'react';
-import HomeScreen from "../screens/HomeScreen";
-import {createNativeStackNavigator} from "@react-navigation/native-stack";
-import MainTab from "../navigation/BottomTab";
-import DetailScreen from "../screens/DetailScreen";
 
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+import DetailScreen from '../screens/main/DetailScreen';
+import HomeScreen from '../screens/main/HomeScreen';
 
 export type HomeStackType = {
-    Home: undefined;
-    Detail: undefined;
+  Home: undefined;
+  Detail: undefined;
 };
 const Stack = createNativeStackNavigator();
 const HomeStack = () => {
-    return (
-        <Stack.Navigator>
-            <Stack.Screen name="Home" component={HomeScreen} options={{
-                headerShown: false,
-            }} />
-            <Stack.Screen name="Detail" component={DetailScreen} />
-        </Stack.Navigator>
-    );
+  return (
+    <Stack.Navigator>
+      <Stack.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen name="Detail" component={DetailScreen} />
+    </Stack.Navigator>
+  );
 };
 
 export default HomeStack;
