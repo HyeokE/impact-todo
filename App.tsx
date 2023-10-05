@@ -1,7 +1,7 @@
 import {StyleSheet} from 'react-native';
 import React from "react";
-import Navigation from "./Navigation/Navigation";
-import MainTab from "./Navigation/BottomTab";
+import Navigation from "./navigation/Navigation";
+import MainTab from "./navigation/BottomTab";
 
 
 
